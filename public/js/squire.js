@@ -1,6 +1,6 @@
 /* eslint-disable max-params */
-import { Character } from './character-template';
-import { Fighter } from './fighter';
+import { Character } from './character-template.js';
+import { Fighter } from './fighter.js';
 export class Squire extends Character {
     constructor(name, family, age, servedCharacter, pelotismDegree) {
         super(name, family, age);

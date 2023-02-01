@@ -2,9 +2,13 @@ GoT DOM
 Tendrás que programar esta interfaz de usuario para que refleje el modelo de datos que diseñaste en el anterior ejercicio (tienes una implementación en el archivo got.js).
 
 Crea los siguientes archivos JS y haz que funcionen como módulos mediante import y export:
+
 Personaje.js, Rey.js, Luchador.js, Asesor.js, Escudero.js (mete dentro cada clase)
+
 personajes.js (crea dentro un array con todos los personajes del ejercicio anterior)
+
 index.js (aquí va todo el resto del enunciado, y éste será el punto de entrada)
+
 Haz que por cada personaje del array se muestre la ficha correspondiente en el navegador:
 En el elemento con clase emoji tiene que aparecer uno de estos emojis dependiendo del tipo de personaje: 👑 🗡 🎓 🛡
 Si el personaje está muerto, su foto debe aparecer cabeza abajo (haz el CSS necesario);
